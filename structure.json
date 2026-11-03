@@ -1,8 +1,6 @@
 {
   "items": [
-    {
-      "path": "airmur-05",
-      "title": "AIRMUR 05 — CÓDIGO ROJO"
-    }
+    {"path": "airmur-05", "title": "AIRMUR 05 — CÓDIGO ROJO"},
+    {"path": "airmur-06", "title": "AIRMUR 06 — OPERACIÓN PUENTE"}
   ]
 }

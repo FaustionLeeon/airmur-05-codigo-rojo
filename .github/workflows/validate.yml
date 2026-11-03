@@ -11,3 +11,5 @@ jobs:
         run: ./scripts/validate.sh
       - name: Pruebas dinámicas
         run: sudo ./scripts/smoke-test.sh
+      - name: Pruebas dinámicas AIRMUR 06
+        run: ./scripts/smoke-test-ra6.sh

@@ -1,0 +1,34 @@
+{
+  "title": "M02 — El puente desviado",
+  "description": "CE 6.b, 6.c y 6.i: diagnosticar conectividad y verificar el servicio.",
+  "details": {
+    "intro": {
+      "title": "Los clientes llaman a la puerta equivocada",
+      "text": "intro/text.md",
+      "background": "setup.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "1. Compara contrato y configuración",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "2. Prueba antes de tocar",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "3. Corrige y verifica",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Corredor TCP restablecido",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

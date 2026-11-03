@@ -1,0 +1,34 @@
+{
+  "title": "M03 — Planes compartidos",
+  "description": "CE 6.d, 6.e, 6.h y 6.i: configurar un servicio real de archivos y probar acceso controlado.",
+  "details": {
+    "intro": {
+      "title": "Los planes están en cuarentena",
+      "text": "intro/text.md",
+      "background": "setup.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "1. Localiza la raíz equivocada",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "2. Prueba identidades y operaciones",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "3. Publica y verifica",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Planes disponibles",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
