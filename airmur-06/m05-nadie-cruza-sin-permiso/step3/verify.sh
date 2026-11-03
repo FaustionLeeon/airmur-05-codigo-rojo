@@ -3,9 +3,10 @@ set -u
 P=${AIRMUR_ROOT:-}; ACL="$P/etc/airmur/users.csv"; FILE="$P/srv/airmur/secure-share/RMU318.txt"; REPORT="$P/root/evidencias/m05-seguridad.env"
 fail(){ echo "NO SUPERADO: $*" >&2; exit 1; }
 value(){ awk -F= -v k="$1" '$1==k{sub(/^[^=]*=/,"");print;n++}END{if(n!=1)exit 2}' "$2" 2>/dev/null; }
+mode(){ if stat -c %a "$1" >/dev/null 2>&1; then stat -c %a "$1"; else stat -f %Lp "$1"; fi; }
 diff -u "$P/opt/airmur/state/expected-acl.csv" "$ACL" >/dev/null || fail 'la ACL no aplica mínimo privilegio'
-[ "$(stat -f %Lp "$ACL" 2>/dev/null || stat -c %a "$ACL")" = 640 ] || fail 'users.csv debe tener modo 640'
-[ "$(stat -f %Lp "$FILE" 2>/dev/null || stat -c %a "$FILE")" = 640 ] || fail 'RMU318.txt debe tener modo 640'
+[ "$(mode "$ACL")" = 640 ] || fail 'users.csv debe tener modo 640'
+[ "$(mode "$FILE")" = 640 ] || fail 'RMU318.txt debe tener modo 640'
 python3 - <<'PY' || exit 1
 import secrets,urllib.error,urllib.request
 b='http://127.0.0.1:19664'; name='acl-'+secrets.token_hex(4)+'.txt'; data=secrets.token_bytes(27)
