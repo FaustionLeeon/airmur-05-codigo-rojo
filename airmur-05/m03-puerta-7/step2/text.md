@@ -7,7 +7,7 @@ Usa los wrappers:
 - `airmur-gate-stop`
 - `airmur-gate-start`
 
-Así practicas gestión de proceso sin depender de systemd.
+Así practicas una gestión de proceso portable, sin depender de que systemd esté disponible ni de que exista una unidad registrada.
 
 <details><summary>Pista 1 — prueba funcional</summary>
 

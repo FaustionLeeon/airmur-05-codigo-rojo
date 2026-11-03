@@ -7,7 +7,7 @@
 | 5.c. Actividad a partir de trazas | M03 — La puerta 7 no responde | Servicio funcional en el puerto esperado, configuración corregida, código de incidencia y línea de traza documentados | Cobertura directa con logs de aplicación y proceso, sin fingir `journalctl` |
 | 5.d. Mantenimiento del software instalado | M04 — Equipajes sin inventario | Paquete real `dpkg` pasa de 1.0 a 1.1, conserva configuración y devuelve estado OK | Cobertura directa con paquete `.deb` local; no necesita red ni repositorios externos |
 | 5.e. Automatización de tareas | M05 — El técnico que nunca duerme | Script ejecutable, entrada cron válida, archivo real con contenido y checksum verificado, registro de ejecución | Cobertura directa de creación y ejecución. El disparo periódico por demonio se marca como dependiente de que `cron` exista; extensión en VM recomendada |
-| 5.f. Información de configuración | M06 — Auditoría antes del despegue | Inventario comparado con hostname, kernel, SO, IP, DNS y configuración AIRMUR reales del contenedor | Cobertura directa; el alumno debe declarar que no hay dominio AD ni systemd reales |
+| 5.f. Información de configuración | M06 — Auditoría antes del despegue | Inventario comparado con hostname, kernel, SO, IP, DNS, PID 1 y configuración AIRMUR reales del entorno | Cobertura directa; el alumno debe declarar que no hay un dominio AD real y detectar dinámicamente si systemd es PID 1 |
 
 ## Extensión obligatoria para acreditar completamente el CE 5.b
 

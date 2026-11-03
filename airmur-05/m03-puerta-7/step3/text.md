@@ -8,7 +8,7 @@ PUERTO_ANTES=18081
 PUERTO_DESPUES=18080
 TRAZA_CLAVE=operations_expected_18080
 CAUSA=configuracion_puerto
-GESTOR=wrapper_sin_systemd
+GESTOR=wrapper_portable
 PRUEBA=AIRMUR-GATE-OK
 ```
 

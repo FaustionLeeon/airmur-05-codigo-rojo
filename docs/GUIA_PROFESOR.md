@@ -10,7 +10,7 @@ Personajes: Lucas (operaciones), Marta (facturación), Elena (seguridad), Raúl 
 
 1. M01: 35 min — proceso, CPU, memoria y elección de herramienta.
 2. M02: 35 min — espacio, inodos, metadatos y limpieza selectiva.
-3. M03: 40 min — lectura de logs, configuración y proceso de servicio sin systemd.
+3. M03: 40 min — lectura de logs, configuración y proceso gestionado con wrappers portables, sin depender de systemd.
 4. M04: 30 min — consulta y actualización offline de paquete.
 5. M05: 40 min — script idempotente, archivo, checksum y programación.
 6. M06: 35 min — inventario y límites de un contenedor.

@@ -41,4 +41,4 @@ La orden autonómica desarrolla contenidos; el texto de RA y CE utilizado para l
 
 ## Criterio de prudencia
 
-Un contenedor efímero permite trabajar procesos, trazas, paquetes locales, scripts y configuración. No expone de forma estable un dispositivo físico propio, SMART, particionado real ni un gestor systemd completo. Por ello, el CE 5.b solo se entrena de forma parcial en Killercoda y se acompaña de una extensión en VM; tampoco se presupone `journalctl`, `systemctl`, SSH ni acceso a discos reales.
+Un entorno efímero permite trabajar procesos, trazas, paquetes locales, scripts y configuración. No expone de forma estable un dispositivo físico propio, SMART ni particionado real. La imagen de Killercoda puede cambiar y puede tener systemd como PID 1, pero las misiones no presuponen unidades AIRMUR registradas, persistencia tras reinicio, `journalctl`, SSH ni discos reales. Por ello, el CE 5.b solo se entrena de forma parcial y se acompaña de una extensión en VM.

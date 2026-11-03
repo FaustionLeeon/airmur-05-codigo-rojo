@@ -9,6 +9,7 @@ Proyecto listo para importar en Killercoda para 2.º SMR, módulo 0224 **Sistema
 - `docs/NORMATIVA_RA5.md`: texto exacto del RA5 y sus seis CE, con fuentes oficiales.
 - `docs/MATRIZ_RA5_CE.md`: cobertura real, límites del contenedor y extensión en VM cuando procede.
 - `docs/GUIA_PROFESOR.md`: secuenciación, evaluación, soluciones esperadas y recuperación.
+- `docs/SOLUCIONARIO_PASO_A_PASO.md`: resolución completa para el profesor, explicada desde cero y con órdenes comprobadas.
 - `docs/CUADERNO_ALUMNO.md`: plantilla común para documentar diagnóstico, intervención y pruebas.
 - `scripts/validate.sh`: validación estática del repositorio.
 - `scripts/smoke-test.sh`: pruebas dinámicas en Ubuntu/Debian con privilegios de administrador.
@@ -79,7 +80,7 @@ Documentación oficial consultada: [Creator Documentation](https://killercoda.co
 1. Abra M01 y espere el mensaje `AIRMUR listo`.
 2. Pulse **CHECK** sin resolver: debe fallar.
 3. Resuelva la misión con las pistas y vuelva a pulsar **CHECK**: debe aprobar.
-4. Repita con M03 (servicio sin systemd), M04 (paquete `.deb` local) y M05 (automatización).
+4. Repita con M03 (servicio gestionado sin depender de systemd), M04 (paquete `.deb` local) y M05 (automatización).
 5. En la sección de depuración del creador compruebe que los `background.sh` terminan sin errores.
 
 ## Estado de las pruebas

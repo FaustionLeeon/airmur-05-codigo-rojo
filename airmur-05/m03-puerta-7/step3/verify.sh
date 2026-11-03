@@ -23,6 +23,6 @@ PY
 [ "$(value PUERTO_DESPUES "$REPORT")" = 18080 ] || fail 'puerto final incorrecto'
 [ "$(value TRAZA_CLAVE "$REPORT")" = operations_expected_18080 ] || fail 'traza clave incorrecta'
 [ "$(value CAUSA "$REPORT")" = configuracion_puerto ] || fail 'causa incorrecta'
-[ "$(value GESTOR "$REPORT")" = wrapper_sin_systemd ] || fail 'debes reconocer la ausencia de systemd'
+[ "$(value GESTOR "$REPORT")" = wrapper_portable ] || fail 'documenta el gestor normalizado: wrapper_portable'
 [ "$(value PRUEBA "$REPORT")" = AIRMUR-GATE-OK ] || fail 'prueba documentada incorrecta'
 echo 'SUPERADO: trazas correlacionadas, configuración corregida y servicio verificado.'
