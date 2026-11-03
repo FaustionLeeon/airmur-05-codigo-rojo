@@ -84,7 +84,7 @@ Documentación oficial consultada: [Creator Documentation](https://killercoda.co
 
 ## Estado de las pruebas
 
-Consulte `docs/PRUEBAS.md`. La validación local no sustituye una ejecución real en la imagen `ubuntu` de Killercoda; esa prueba final queda expresamente identificada.
+Consulte `docs/PRUEBAS.md`. Se han superado la validación local, la prueba dinámica de las seis misiones en GitHub Actions y una ejecución completa de M01 en la imagen `ubuntu` vigente de Killercoda. El registro distingue las comprobaciones automatizadas de las pantallas recorridas manualmente.
 
 ## Licencia
 
