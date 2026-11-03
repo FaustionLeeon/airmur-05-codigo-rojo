@@ -2,7 +2,7 @@
   "title": "M04 — Equipajes sin inventario",
   "description": "CE 5.d: mantenimiento offline de software instalado con un paquete .deb real.",
   "details": {
-    "intro": {"title": "Inventario degradado", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "intro": {"title": "Inventario degradado", "text": "intro/text.md", "background": "setup.sh", "foreground": "intro/foreground.sh"},
     "steps": [
       {"title": "1. Comprueba versión y síntoma", "text": "step1/text.md"},
       {"title": "2. Planifica el mantenimiento", "text": "step2/text.md"},

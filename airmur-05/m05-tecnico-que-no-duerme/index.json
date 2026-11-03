@@ -2,7 +2,7 @@
   "title": "M05 — El técnico que nunca duerme",
   "description": "CE 5.e: automatización verificable de copias, integridad, registro y programación.",
   "details": {
-    "intro": {"title": "Manifiestos sin copia", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "intro": {"title": "Manifiestos sin copia", "text": "intro/text.md", "background": "setup.sh", "foreground": "intro/foreground.sh"},
     "steps": [
       {"title": "1. Define el contrato", "text": "step1/text.md"},
       {"title": "2. Automatiza con seguridad", "text": "step2/text.md"},

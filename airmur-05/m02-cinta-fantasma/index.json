@@ -2,7 +2,7 @@
   "title": "M02 — La cinta fantasma",
   "description": "CE 5.b (parcial en contenedor): espacio, metadatos, I/O y limpieza selectiva.",
   "details": {
-    "intro": {"title": "Clasificación bloqueada", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "intro": {"title": "Clasificación bloqueada", "text": "intro/text.md", "background": "setup.sh", "foreground": "intro/foreground.sh"},
     "steps": [
       {"title": "1. Mide", "text": "step1/text.md"},
       {"title": "2. Acota", "text": "step2/text.md"},

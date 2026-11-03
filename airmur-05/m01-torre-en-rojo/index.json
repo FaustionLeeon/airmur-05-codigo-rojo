@@ -5,7 +5,7 @@
     "intro": {
       "title": "Código rojo en la torre",
       "text": "intro/text.md",
-      "background": "intro/background.sh",
+      "background": "setup.sh",
       "foreground": "intro/foreground.sh"
     },
     "steps": [

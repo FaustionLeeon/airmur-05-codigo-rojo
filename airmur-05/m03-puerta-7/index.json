@@ -2,7 +2,7 @@
   "title": "M03 — La puerta 7 no responde",
   "description": "CE 5.c: observar trazas, localizar una discrepancia y recuperar un servicio sin systemd.",
   "details": {
-    "intro": {"title": "Embarque detenido", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "intro": {"title": "Embarque detenido", "text": "intro/text.md", "background": "setup.sh", "foreground": "intro/foreground.sh"},
     "steps": [
       {"title": "1. Reconstruye la línea temporal", "text": "step1/text.md"},
       {"title": "2. Contrasta configuración y estado", "text": "step2/text.md"},

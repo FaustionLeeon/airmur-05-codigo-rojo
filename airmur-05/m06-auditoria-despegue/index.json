@@ -2,7 +2,7 @@
   "title": "M06 — Auditoría antes del despegue",
   "description": "CE 5.f: interpretar configuración real del contenedor y distinguirla de la narrativa AIRMUR.",
   "details": {
-    "intro": {"title": "Nora pide el inventario", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "intro": {"title": "Nora pide el inventario", "text": "intro/text.md", "background": "setup.sh", "foreground": "intro/foreground.sh"},
     "steps": [
       {"title": "1. Obtén hechos", "text": "step1/text.md"},
       {"title": "2. Cruza capas", "text": "step2/text.md"},
