@@ -1,1 +1,13 @@
-m«ëˆ§½©buªàºg§´²Ô„™Õ,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+# Licencias
+
+## CÃ³digo: MIT
+
+Copyright (c) 2026 AIRMUR 05
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to inclusion of this notice.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+## Material docente: CC BY 4.0
+
+Los textos Markdown de las misiones y de `docs/` pueden compartirse y adaptarse con atribuciÃ³n, conforme a <https://creativecommons.org/licenses/by/4.0/deed.es>.

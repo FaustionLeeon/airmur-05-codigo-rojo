@@ -1,1 +1,21 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œ'(ªç§¡Û®g¿²×©×û^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Define el contrato antes del script
+
+La tarea debe:
+
+1. incluir todos los ficheros actuales de `/srv/airmur/manifests`;
+2. crear un `.tar.gz` vÃ¡lido en `/var/backups/airmur`;
+3. crear al lado un fichero `.sha256` comprobable con `sha256sum -c`;
+4. aÃ±adir una lÃ­nea con fecha a `/var/log/airmur/maintenance.log`;
+5. poder ejecutarse varias veces sin sobrescribir una copia anterior.
+
+<details><summary>Pista 1 â€” nombres sin colisiones</summary>
+
+Incluye fecha, hora y segundos; aÃ±ade PID o nanosegundos si quieres soportar ejecuciones simultÃ¡neas.
+
+</details>
+
+<details><summary>Pista 2 â€” prueba el artefacto</summary>
+
+No basta con que el fichero exista: lista el contenido con `tar -tzf` y verifica el checksum desde su directorio.
+
+</details>

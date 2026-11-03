@@ -1,1 +1,17 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œ'(ªç§¡Û®g¿²×©Ûû^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Automatiza con seguridad
+
+Crea `/usr/local/sbin/airmur-maintenance.sh` con permisos ejecutables. Usa rutas absolutas, `set -euo pipefail`, crea el destino si falta y no borres el origen.
+
+DespuÃ©s crea `/etc/cron.d/airmur-maintenance` para ejecutarlo **cada dos minutos como root**. Un fichero de `/etc/cron.d` necesita el campo de usuario.
+
+<details><summary>Pista 1 â€” esqueleto mental</summary>
+
+Variables de origen/destino â†’ nombre Ãºnico â†’ `tar` â†’ `sha256sum` â†’ log. Si un paso falla, no registres Ã©xito.
+
+</details>
+
+<details><summary>Pista 2 â€” formato cron</summary>
+
+La lÃ­nea tiene cinco campos temporales, despuÃ©s `root` y despuÃ©s la ruta absoluta del script. Termina el fichero con salto de lÃ­nea y usa permisos 0644.
+
+</details>

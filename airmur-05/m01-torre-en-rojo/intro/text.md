@@ -1,1 +1,7 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèş)í®í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# 06:12 â€” La torre estÃ¡ en rojo
+
+Lucas avisa por radio: las pantallas de coordinaciÃ³n responden con retraso. RaÃºl ve CPU alta, pero tambiÃ©n un proceso de cachÃ© que consume memoria. **No todo consumo es una averÃ­a.**
+
+Tu misiÃ³n es medir, distinguir el proceso anÃ³malo del proceso necesario, aplicar el cambio mÃ­nimo y dejar evidencia. El entorno es una rÃ©plica aislada: `ad.airmur.test` no se consulta ni modifica.
+
+Cuando el terminal muestre `AIRMUR listo`, pulsa **START**.

@@ -1,1 +1,12 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œž'(ªç§¡Ûž®g¿Š{k£÷è­è+¢éÝ²,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+#!/bin/bash
+printf 'Preparando manifiestos y entorno de automatizaciÃ³n'
+for _ in $(seq 1 90); do
+  if [ -f /opt/airmur/state/ready ]; then
+    echo
+    MODE=$(awk -F= '$1=="CRON_DISPONIBLE" {print $2}' /opt/airmur/state/scheduler.env)
+    echo "AIRMUR listo: CRON_DISPONIBLE=$MODE"
+    exit 0
+  fi
+  printf '.'; sleep 1
+done
+echo; echo 'PreparaciÃ³n incompleta; reinicia y revisa Creator Debug.' >&2; exit 1

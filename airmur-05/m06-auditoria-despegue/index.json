@@ -1,1 +1,14 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´é«ŠÚ+‰§^²— ¹ïâ×±Ê'RÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+{
+  "title": "M06 â€” AuditorÃ­a antes del despegue",
+  "description": "CE 5.f: interpretar configuraciÃ³n real del contenedor y distinguirla de la narrativa AIRMUR.",
+  "details": {
+    "intro": {"title": "Nora pide el inventario", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "steps": [
+      {"title": "1. ObtÃ©n hechos", "text": "step1/text.md"},
+      {"title": "2. Cruza capas", "text": "step2/text.md"},
+      {"title": "3. Entrega la auditorÃ­a", "text": "step3/text.md", "verify": "step3/verify.sh"}
+    ],
+    "finish": {"title": "CÃ³digo rojo cerrado", "text": "finish/text.md"}
+  },
+  "backend": {"imageid": "ubuntu"}
+}

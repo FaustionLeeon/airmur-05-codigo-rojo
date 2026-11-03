@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œ'(ªç§¡Û®g¿~)â²í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Mantenimiento automatizado
+
+La tarea produce un resultado comprobable, conserva versiones y deja rastro. El verificador ha introducido datos despuÃ©s de que escribieras el script, por lo que ha evaluado comportamiento y no una maqueta estÃ¡tica.
+
+**CE trabajado:** 5.e. Si `cron` no existe en la imagen, completa el disparo periÃ³dico real en la extensiÃ³n de VM.

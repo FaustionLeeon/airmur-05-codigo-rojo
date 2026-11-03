@@ -1,1 +1,22 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÙÈ§µ§ÚÖ¬™¯ìµêuş×±¶gT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# Mide el problema
+
+Analiza `/srv/airmur/baggage-spool`:
+
+- capacidad y ocupaciÃ³n del sistema de archivos;
+- inodos;
+- espacio del directorio;
+- nÃºmero, tipo y antigÃ¼edad de ficheros.
+
+No supongas que el fichero mÃ¡s grande es el culpable. Miles de entradas pequeÃ±as pueden penalizar operaciones de metadatos.
+
+<details><summary>Pista 1 â€” cuatro preguntas, cuatro vistas</summary>
+
+`df -h`, `df -i`, `du` y `find` responden preguntas distintas. Anota quÃ© mide cada una.
+
+</details>
+
+<details><summary>Pista 2 â€” separa por edad y patrÃ³n</summary>
+
+Compara `*.tmp` antiguos con recientes y cuenta los `.ctl`. Usa `-mtime` con cuidado: prueba primero sin `-delete`.
+
+</details>

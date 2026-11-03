@@ -1,1 +1,20 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´é«ŠÚ+‰§^²— ¹ïìµêwş×±¶gT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# Entrega la auditorÃ­a
+
+Crea `/root/evidencias/m06-inventario.env`:
+
+```text
+HOSTNAME=valor_real
+KERNEL=valor_real
+SO_ID=valor_real
+IPV4=valor_real_o_none
+DNS=valor_real_o_none
+DOMINIO_REFERENCIA=ad.airmur.test
+ROL=ops-replica
+SYSTEMD_DISPONIBLE=si_o_no
+AD_REAL=no
+RECURSOS=tower,gate7,baggage,manifests
+```
+
+AdemÃ¡s, escribe `/root/evidencias/m06-conclusiones.md` con al menos un pÃ¡rrafo que contenga las ideas `ad.airmur.test`, `contenedor` y `no modifica`: explica por quÃ© esta prÃ¡ctica no toca el dominio real y quÃ© limitaciÃ³n introduce.
+
+Pulsa **CHECK**. Los valores dinÃ¡micos se compararÃ¡n con el sistema en ese momento.

@@ -1,1 +1,21 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´é«ŠÚ+‰§^²— ¹ïìµêvş×±¶gT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# Cruza sistema y configuraciÃ³n AIRMUR
+
+Lee `/etc/airmur/operations.conf`. Separa:
+
+- hechos reales del contenedor;
+- valores de configuraciÃ³n de esta rÃ©plica;
+- nombres narrativos que no prueban la existencia de AD.
+
+`DOMAIN_REFERENCE=ad.airmur.test` no convierte el contenedor en miembro de dominio.
+
+<details><summary>Pista 1 â€” prueba negativa</summary>
+
+Busca `DIRECTORY_MODE`. La configuraciÃ³n declara expresamente si existe un directorio real.
+
+</details>
+
+<details><summary>Pista 2 â€” inventario legible por mÃ¡quina</summary>
+
+Usa pares `CLAVE=valor`, una sola vez por clave. Evita ejecutar el fichero como shell.
+
+</details>

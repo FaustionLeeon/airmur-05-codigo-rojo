@@ -1,1 +1,15 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´áê®Š–£zË")ïz{Z®*?²×©ßû^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Actualiza y prueba
+
+Instala la versiÃ³n 1.1, confirma que la configuraciÃ³n sigue siendo de RMU y ejecuta la prueba funcional. Crea `/root/evidencias/m04-mantenimiento.env`:
+
+```text
+VERSION_ANTES=1.0
+VERSION_DESPUES=1.1
+PAQUETE=airmur-inventory
+METODO=dpkg_local
+CONFIG_PRESERVADA=si
+PRUEBA=STATUS_OK
+RED_UTILIZADA=no
+```
+
+Pulsa **CHECK** cuando `airmur-inventory --check` termine correctamente.

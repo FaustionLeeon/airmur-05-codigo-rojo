@@ -1,1 +1,19 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèþ)Ý{ì¢u,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+{
+  "title": "M01 â€” Torre en rojo",
+  "description": "CE 5.a: monitorizaciÃ³n de procesos, CPU y memoria con diagnÃ³stico razonado.",
+  "details": {
+    "intro": {
+      "title": "CÃ³digo rojo en la torre",
+      "text": "intro/text.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      {"title": "1. Triage", "text": "step1/text.md"},
+      {"title": "2. Decide", "text": "step2/text.md"},
+      {"title": "3. IntervÃ©n y documenta", "text": "step3/text.md", "verify": "step3/verify.sh"}
+    ],
+    "finish": {"title": "Torre estabilizada", "text": "finish/text.md"}
+  },
+  "backend": {"imageid": "ubuntu"}
+}

@@ -1,1 +1,17 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèşË^§oí{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Decide: anomalÃ­a o carga legÃ­tima
+
+RaÃºl confirma que la cachÃ© de equipajes reserva unos 96 MiB y debe seguir activa. El bucle de cÃ¡lculo de vuelos no deberÃ­a monopolizar una CPU.
+
+Identifica ambos PID y decide quÃ© proceso terminar. Evita acciones masivas como `killall python3` o reiniciar el contenedor.
+
+<details><summary>Pista 1 â€” confirma la identidad</summary>
+
+Consulta el PID, el porcentaje de CPU, RSS y la lÃ­nea de orden completa. Un nombre de intÃ©rprete por sÃ­ solo no basta.
+
+</details>
+
+<details><summary>Pista 2 â€” cambio mÃ­nimo</summary>
+
+EnvÃ­a primero una terminaciÃ³n normal al PID anÃ³malo. Comprueba despuÃ©s que desaparece y que la cachÃ© continÃºa viva.
+
+</details>

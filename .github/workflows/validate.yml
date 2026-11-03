@@ -1,1 +1,13 @@
-m«ëˆ§½©buªàºg§¶­†æÿÂŠä~Z0³ûÚ–'Zµì¦•KæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+name: Validar escenarios
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: ValidaciÃ³n estÃ¡tica
+        run: ./scripts/validate.sh
+      - name: Pruebas dinÃ¡micas
+        run: sudo ./scripts/smoke-test.sh

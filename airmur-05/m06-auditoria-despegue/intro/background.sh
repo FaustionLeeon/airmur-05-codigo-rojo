@@ -1,2 +1,4 @@
-m«λ§½©buªΰΊg§µ¨«κτηω΄ι«Ϊ+‰§^²— ΉοβΪθύ¶’
-θΊwl…KζΪ±ξΈΨ[ιΆwβ•κ(ΊΧβ•ζΫ­ζ¤n·‘ιά΅ΧΆλiΊΫ©{h–)ή²‡εzx-†{¦Χ^r‡^uη(uθ§¦λa…ιiv+)•¬­†+&zΛθΆ›­znµψ¥yΧjιm~μµΨ§Ά‹­¦λhΊΪnµψ¥yΧjιm~μµΪ.
+#!/bin/bash
+set -euo pipefail
+SCENARIO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+bash "$SCENARIO_DIR/setup.sh"

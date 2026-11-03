@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œ'(ªç§¡Û®g¿Š{k£û^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# 09:10 â€” El tÃ©cnico que nunca duerme
+
+Nora descubre que los manifiestos de vuelo solo se copiaban cuando RaÃºl se acordaba. Debes crear una tarea repetible que genere un archivo comprimido, un checksum verificable y un registro.
+
+La misiÃ³n detecta si `cron` existe. Si estÃ¡ disponible, el preparador lo arranca directamente, sin systemd. Si no lo estÃ¡, podrÃ¡s diseÃ±ar y ejecutar la automatizaciÃ³n igualmente; el disparo periÃ³dico real se valida despuÃ©s en VM.

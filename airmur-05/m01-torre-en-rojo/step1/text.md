@@ -1,1 +1,21 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèşË^§_í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Triage: mide antes de tocar
+
+Contesta con datos:
+
+1. Â¿QuÃ© procesos consumen mÃ¡s CPU?
+2. Â¿QuÃ© procesos destacan por memoria residente?
+3. Â¿La memoria del sistema estÃ¡ agotada o solo hay un consumidor visible?
+
+Combina al menos una herramienta de procesos y otra de memoria. No termines nada todavÃ­a.
+
+<details><summary>Pista 1 â€” familias de herramientas</summary>
+
+`ps` ofrece una instantÃ¡nea reproducible; `top` actualiza en tiempo real; `free` resume memoria; `vmstat` muestra actividad agregada. Explica quÃ© aporta cada una de las que uses.
+
+</details>
+
+<details><summary>Pista 2 â€” una instantÃ¡nea Ãºtil</summary>
+
+Prueba a ordenar `ps` por CPU y por memoria. La columna de argumentos ayuda a reconocer los procesos AIRMUR.
+
+</details>

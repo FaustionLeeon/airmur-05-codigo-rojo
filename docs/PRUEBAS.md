@@ -1,1 +1,16 @@
-m«ëˆ§½©buªàºg§µÚ³óÑP@@JgT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# Registro de pruebas
+
+Este fichero se actualiza al empaquetar la entrega.
+
+## Pruebas realizadas localmente
+
+- Pendiente de registrar por `scripts/validate.sh` y `scripts/smoke-test.sh`.
+
+## Pruebas no realizadas aquÃ­
+
+- ImportaciÃ³n por una cuenta real de Killercoda Creator.
+- EjecuciÃ³n dentro de la imagen vigente `ubuntu` de Killercoda.
+- Comportamiento visual del botÃ³n **CHECK**, tiempos de preparaciÃ³n y Creator Debug.
+- SincronizaciÃ³n mediante deploy key y webhook de un repositorio concreto.
+
+Estas comprobaciones requieren las cuentas del profesor y se describen paso a paso en el README.

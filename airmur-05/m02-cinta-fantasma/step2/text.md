@@ -1,1 +1,21 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÙÈ§µ§ÚÖ¬™¯ìµêvş×±¶gT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# Acota sin destruir
+
+El procedimiento AIRMUR permite eliminar solo `*.tmp` con mÃ¡s de siete dÃ­as. Debes conservar:
+
+- los temporales recientes;
+- los doce `.ctl` y su contenido;
+- `active-flight-buffer.dat`.
+
+Haz un recuento antes y despuÃ©s. Una orden que borre por extensiÃ³n sin edad no es aceptable.
+
+<details><summary>Pista 1 â€” previsualiza</summary>
+
+Ejecuta el mismo `find` que usarÃ­as para borrar, pero mostrando rutas. Comprueba una fecha con `stat`.
+
+</details>
+
+<details><summary>Pista 2 â€” acciÃ³n selectiva</summary>
+
+La condiciÃ³n combina tipo fichero, nombre `*.tmp` y antigÃ¼edad superior a siete dÃ­as. Solo despuÃ©s aÃ±ade la acciÃ³n de borrado.
+
+</details>

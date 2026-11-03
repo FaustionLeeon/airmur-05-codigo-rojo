@@ -1,1 +1,14 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèþ)í®ß¢· ®‹§vÈT±¨m«ë€Ý…¹îš(§~)^¢‹­~)^mºÞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`Ýuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+#!/bin/bash
+printf 'Preparando telemetrÃ­a de torre'
+for _ in $(seq 1 90); do
+  if [ -f /opt/airmur/state/ready ]; then
+    echo
+    echo 'AIRMUR listo: dos procesos estÃ¡n activos. Diagnostica antes de actuar.'
+    exit 0
+  fi
+  printf '.'
+  sleep 1
+done
+echo
+echo 'La preparaciÃ³n no terminÃ³. Reinicia el escenario y revisa Creator Debug.' >&2
+exit 1

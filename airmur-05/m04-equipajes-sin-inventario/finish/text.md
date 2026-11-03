@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´áê®Š–£zË")ïz{Z®*?~)â²í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Inventario recuperado
+
+Has realizado mantenimiento real sobre un paquete instalado, sin convertir la misiÃ³n en una descarga dependiente de Internet. La base dpkg, el binario, la configuraciÃ³n y la prueba posterior coinciden.
+
+**CE trabajado:** 5.d.

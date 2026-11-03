@@ -1,1 +1,14 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´áê®Š–£zË")ïz{Z®*?Šw^Æ;(KæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+{
+  "title": "M04 â€” Equipajes sin inventario",
+  "description": "CE 5.d: mantenimiento offline de software instalado con un paquete .deb real.",
+  "details": {
+    "intro": {"title": "Inventario degradado", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "steps": [
+      {"title": "1. Comprueba versiÃ³n y sÃ­ntoma", "text": "step1/text.md"},
+      {"title": "2. Planifica el mantenimiento", "text": "step2/text.md"},
+      {"title": "3. Actualiza y prueba", "text": "step3/text.md", "verify": "step3/verify.sh"}
+    ],
+    "finish": {"title": "Inventario recuperado", "text": "finish/text.md"}
+  },
+  "backend": {"imageid": "ubuntu"}
+}

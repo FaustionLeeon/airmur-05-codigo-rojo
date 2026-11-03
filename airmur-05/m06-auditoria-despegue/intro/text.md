@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´é«ŠÚ+‰§^²— ¹ïâÚèş×±¶gT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# 10:02 â€” AuditorÃ­a antes del despegue
+
+Nora necesita un inventario reproducible del servidor de operaciones: identidad, kernel, sistema, red, DNS y configuraciÃ³n AIRMUR. TambiÃ©n quiere saber quÃ© elementos son reales y cuÃ¡les son solo continuidad narrativa.
+
+No modifiques hostname, DNS, `/etc/hosts` ni ningÃºn dominio. Interpreta el estado que existe y compÃ¡ralo con `/etc/airmur/operations.conf`.

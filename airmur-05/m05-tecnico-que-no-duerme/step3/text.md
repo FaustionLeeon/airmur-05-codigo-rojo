@@ -1,1 +1,15 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œ'(ªç§¡Û®g¿²×©ßû^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Programa, ejecuta y prueba
+
+Ejecuta manualmente el script al menos una vez y comprueba archivo, checksum, contenido y log. Crea `/root/evidencias/m05-automatizacion.env`:
+
+```text
+SCRIPT=/usr/local/sbin/airmur-maintenance.sh
+PERIODICIDAD_MIN=2
+USUARIO=root
+ARTEFACTO=tar_gz
+INTEGRIDAD=sha256
+PRUEBA_MANUAL=ok
+CRON_DISPONIBLE=si
+```
+
+Pon en `CRON_DISPONIBLE` el valor real de `/opt/airmur/state/scheduler.env`. Al pulsar **CHECK**, el verificador aÃ±adirÃ¡ un manifiesto imprevisible, ejecutarÃ¡ tu script y exigirÃ¡ encontrarlo dentro de una copia nueva; crear ficheros vacÃ­os no sirve.

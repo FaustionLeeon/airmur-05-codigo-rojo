@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´áê®Š–£zË")ïz{Z®*?Š{k£û^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# 08:26 â€” Equipajes sin inventario
+
+RaÃºl detecta que `airmur-inventory` estÃ¡ instalado pero devuelve estado degradado. El centro de operaciones ha depositado una versiÃ³n corregida en el repositorio offline del aeropuerto.
+
+Debes consultar el software instalado, preservar la configuraciÃ³n de RMU, aplicar el paquete local y realizar una prueba posterior. No hay red y no se usa `apt update`.

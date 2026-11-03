@@ -1,1 +1,14 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´æ×œ'(ªç§¡Û®g¿Šw^Æ;(KæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+{
+  "title": "M05 â€” El tÃ©cnico que nunca duerme",
+  "description": "CE 5.e: automatizaciÃ³n verificable de copias, integridad, registro y programaciÃ³n.",
+  "details": {
+    "intro": {"title": "Manifiestos sin copia", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "steps": [
+      {"title": "1. Define el contrato", "text": "step1/text.md"},
+      {"title": "2. Automatiza con seguridad", "text": "step2/text.md"},
+      {"title": "3. Programa, ejecuta y prueba", "text": "step3/text.md", "verify": "step3/verify.sh"}
+    ],
+    "finish": {"title": "Mantenimiento automatizado", "text": "finish/text.md"}
+  },
+  "backend": {"imageid": "ubuntu"}
+}

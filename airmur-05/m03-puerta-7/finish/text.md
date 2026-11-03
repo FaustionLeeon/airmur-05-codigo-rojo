@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´Ş›®Ö»ıø§ŠÈµìm™Õ,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºŞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+# Puerta abierta
+
+Has reconstruido una secuencia desde trazas y has contrastado log, configuraciÃ³n, proceso y respuesta funcional. Reiniciar sin diagnÃ³stico habrÃ­a ocultado la causa.
+
+**CE trabajado:** 5.c, con trazas reales de aplicaciÃ³n y sistema de proceso dentro del contenedor.

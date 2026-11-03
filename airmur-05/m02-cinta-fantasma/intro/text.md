@@ -1,1 +1,7 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÙÈ§µ§ÚÖ¬™¯âÚèş×±¶gT±¨m«ë€İ…¹îš(§~)^¢‹­~)^mºŞjFëy©ÊyÚ.¶›­º˜§¶‰bë(~W§‚Øgº`İuç(uç^r‡^Šzn¶^–—b²™ZÊØb²g¬±¨Š)éºØ§¦ë_ŠWyö®–×è®Ë]Šz(ºÚn¶‹­¦ë_ŠWyö®–×è®Ë]¢ë
+# 07:05 â€” La cinta fantasma
+
+Marta informa de que la clasificaciÃ³n de equipajes tarda demasiado al recorrer su cola de trabajo. Hay muchos ficheros, pero los `.ctl` son controles de seguridad y no se pueden perder.
+
+Diagnostica espacio, inodos y cantidad/antigÃ¼edad de entradas. El objetivo no es Â«borrar hasta que funcioneÂ», sino retirar Ãºnicamente temporales caducados y demostrar quÃ© se conservÃ³.
+
+Esta misiÃ³n **no simula un disco fÃ­sico**. Entrena el mÃ©todo dentro del sistema de archivos del contenedor; el CE 5.b se completa en una VM segÃºn la guÃ­a.

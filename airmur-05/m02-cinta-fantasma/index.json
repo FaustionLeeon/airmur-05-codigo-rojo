@@ -1,1 +1,14 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÙÈ§µ§ÚÖ¬™¯â×±Ê'RÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+{
+  "title": "M02 â€” La cinta fantasma",
+  "description": "CE 5.b (parcial en contenedor): espacio, metadatos, I/O y limpieza selectiva.",
+  "details": {
+    "intro": {"title": "ClasificaciÃ³n bloqueada", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "steps": [
+      {"title": "1. Mide", "text": "step1/text.md"},
+      {"title": "2. Acota", "text": "step2/text.md"},
+      {"title": "3. Limpia y demuestra", "text": "step3/text.md", "verify": "step3/verify.sh"}
+    ],
+    "finish": {"title": "Cinta liberada", "text": "finish/text.md"}
+  },
+  "backend": {"imageid": "ubuntu"}
+}

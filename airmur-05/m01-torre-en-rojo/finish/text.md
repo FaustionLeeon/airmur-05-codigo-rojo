@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèıø§ŠÈµìm™Õ,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºŞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+# Torre estabilizada
+
+Has evitado dos fallos frecuentes: confundir consumo con averÃ­a y matar procesos por nombre genÃ©rico. La evidencia tÃ©cnica demuestra que elegiste herramientas de monitorizaciÃ³n, interpretaste sus medidas y aplicaste un cambio selectivo.
+
+**CE trabajado:** 5.a. La descripciÃ³n razonada de las herramientas se completa en el cuaderno y la revisa el profesor.

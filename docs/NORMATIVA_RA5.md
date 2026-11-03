@@ -1,1 +1,44 @@
-m«ëˆ§½©buªàºg§µÚ³óNDÀ!P™RÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Normativa verificada: RA5 del mÃ³dulo 0224
+
+## Fuente estatal que fija el RA y los CE
+
+Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el tÃ­tulo de TÃ©cnico en Sistemas MicroinformÃ¡ticos y Redes y se fijan sus enseÃ±anzas mÃ­nimas, publicado en el BOE de 17 de enero de 2008: <https://www.boe.es/buscar/doc.php?id=BOE-A-2008-819>.
+
+Texto exacto del resultado de aprendizaje 5 del mÃ³dulo profesional 0224 **Sistemas operativos en red**:
+
+> **5. Realiza tareas de monitorizaciÃ³n y uso del sistema operativo en red, describiendo las herramientas utilizadas e identificando las principales incidencias.**
+
+**Criterios de evaluaciÃ³n (6):**
+
+> a) Se han descrito las caracterÃ­sticas de los programas de monitorizaciÃ³n.
+>
+> b) Se han identificado problemas de rendimiento en los dispositivos de almacenamiento.
+>
+> c) Se ha observado la actividad del sistema operativo en red a partir de las trazas generadas por el propio sistema.
+>
+> d) Se han realizado tareas de mantenimiento del software instalado en el sistema.
+>
+> e) Se han ejecutado operaciones para la automatizaciÃ³n de tareas del sistema.
+>
+> f) Se ha interpretado la informaciÃ³n de configuraciÃ³n del sistema operativo en red.
+
+No existen CE 5.g ni 5.h en este tÃ­tulo. El proyecto no atribuye al RA5 la gestiÃ³n de usuarios, dominios o recursos compartidos, que corresponden a otros RA.
+
+## Desarrollo curricular vigente en la RegiÃ³n de Murcia
+
+La Orden de 30 de noviembre de 2010 establece el currÃ­culo de SMR en la RegiÃ³n de Murcia. La Orden de 10 de septiembre de 2022 actualiza, entre otros, los contenidos del mÃ³dulo 0224. Texto oficial de la modificaciÃ³n, BORM n.Âº 217 de 19 de septiembre de 2022: <https://www.borm.es/services/anuncio/ano/2022/numero/4674/pdf?id=810699>.
+
+Para el bloque Â«MonitorizaciÃ³n y uso del sistema operativo en redÂ», la actualizaciÃ³n murciana incluye:
+
+- arranque y fallos de arranque;
+- herramientas de control y seguimiento del rendimiento;
+- anÃ¡lisis del rendimiento y propuestas de mejora;
+- gestiÃ³n de procesos relativos a servicios;
+- instalaciÃ³n y distribuciÃ³n de software;
+- automatizaciÃ³n de tareas administrativas.
+
+La orden autonÃ³mica desarrolla contenidos; el texto de RA y CE utilizado para la matriz procede del real decreto estatal que fija las enseÃ±anzas mÃ­nimas.
+
+## Criterio de prudencia
+
+Un contenedor efÃ­mero permite trabajar procesos, trazas, paquetes locales, scripts y configuraciÃ³n. No expone de forma estable un dispositivo fÃ­sico propio, SMART, particionado real ni un gestor systemd completo. Por ello, el CE 5.b solo se entrena de forma parcial en Killercoda y se acompaÃ±a de una extensiÃ³n en VM; tampoco se presupone `journalctl`, `systemctl`, SSH ni acceso a discos reales.

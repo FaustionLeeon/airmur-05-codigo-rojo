@@ -1,1 +1,7 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´áê®Š–£zË"ž)ïz{Z®*?Š{k£÷è­è+¢éÝ²,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+#!/bin/bash
+printf 'Preparando repositorio offline'
+for _ in $(seq 1 90); do
+  [ -f /opt/airmur/state/ready ] && { echo; echo 'AIRMUR listo: versiÃ³n 1.0 instalada; versiÃ³n 1.1 disponible sin red.'; exit 0; }
+  printf '.'; sleep 1
+done
+echo; echo 'PreparaciÃ³n incompleta; reinicia y revisa Creator Debug.' >&2; exit 1

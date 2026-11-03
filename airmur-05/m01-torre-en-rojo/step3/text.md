@@ -1,1 +1,16 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÖÚ+­ç§®ˆèşË^§í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# IntervÃ©n y deja evidencia
+
+Termina solo el proceso anÃ³malo y crea `/root/evidencias/m01-monitorizacion.env`:
+
+```text
+HERRAMIENTA_PROCESOS=ps
+HERRAMIENTA_MEMORIA=free
+PID_ANOMALO=1234
+PID_CACHE=5678
+CPU_ANOMALA_PCT=99
+MEM_CACHE_MIB=96
+CAUSA=cpu_loop
+ACCION=terminacion_selectiva
+```
+
+Sustituye los ejemplos por tus datos reales. `CPU_ANOMALA_PCT` y `MEM_CACHE_MIB` deben ser enteros observados o redondeados. Pulsa **CHECK** cuando el proceso anÃ³malo ya no exista y la cachÃ© siga activa.

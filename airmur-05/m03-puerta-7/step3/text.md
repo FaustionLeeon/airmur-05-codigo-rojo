@@ -1,1 +1,15 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´Ş›®Ö»şË^§í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Recupera y documenta
+
+Deja el servicio sano en el puerto esperado y crea `/root/evidencias/m03-trazas.env`:
+
+```text
+INCIDENTE=INC-GATE7-042
+PUERTO_ANTES=18081
+PUERTO_DESPUES=18080
+TRAZA_CLAVE=operations_expected_18080
+CAUSA=configuracion_puerto
+GESTOR=wrapper_sin_systemd
+PRUEBA=AIRMUR-GATE-OK
+```
+
+Pulsa **CHECK**. El verificador realizarÃ¡ una peticiÃ³n HTTP real y validarÃ¡ el proceso y la configuraciÃ³n.

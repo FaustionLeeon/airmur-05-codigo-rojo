@@ -1,1 +1,22 @@
-m´ÎàßΩ©bu™‡∫gßµ®´öÍÙÁ˘¥·ÍÆäñ£zÀ"û)Ôz{ZÆ*?≤◊©ﬂ˚ﬁÆ'Ú≤,jõj«∫‡7an{¶ä)ﬂäW®¢Î_äWõn∑öë∫ﬁjGßrá^vã≠¶În¶)Ì¢Xßz ïÈ‡∂Óò7]y y◊ú°◊¢ûõ≠Ü••ÿ¨¶V≤∂¨ôÎ,j¢äzn∂)È∫◊‚ïÁ^}´•µ˙+≤◊bûä.∂õ≠¢Îi∫◊‚ïÁ^}´•µ˙+≤◊h∫
+#!/bin/bash
+set -u
+fail() { echo "NO SUPERADO: $*" >&2; exit 1; }
+value() { awk -F= -v key="$1" '$1==key {sub(/^[^=]*=/, ""); print; n++} END {if(n!=1) exit 2}' "$2" 2>/dev/null; }
+REPORT=/root/evidencias/m04-mantenimiento.env
+BACKUP=/root/evidencias/inventory.conf.before
+VERSION=$(dpkg-query -W -f='${Version}' airmur-inventory 2>/dev/null) || fail 'el paquete no est√° instalado'
+[ "$VERSION" = 1.1 ] || fail "versi√≥n instalada $VERSION; se esperaba 1.1"
+[ "$(airmur-inventory --version 2>/dev/null)" = 1.1 ] || fail 'binario y base dpkg no coinciden'
+CHECK=$(airmur-inventory --check 2>/dev/null) || fail 'la comprobaci√≥n del inventario falla'
+[ "$CHECK" = STATUS=OK ] || fail 'estado funcional distinto de OK'
+grep -qx 'SITE=RMU' /etc/airmur/inventory.conf || fail 'la configuraci√≥n de RMU no se conserv√≥'
+[ -s "$BACKUP" ] && grep -qx 'SITE=RMU' "$BACKUP" || fail 'falta una copia previa v√°lida de la configuraci√≥n'
+[ -s "$REPORT" ] || fail 'falta m04-mantenimiento.env'
+[ "$(value VERSION_ANTES "$REPORT")" = 1.0 ] || fail 'versi√≥n inicial incorrecta'
+[ "$(value VERSION_DESPUES "$REPORT")" = 1.1 ] || fail 'versi√≥n final incorrecta'
+[ "$(value PAQUETE "$REPORT")" = airmur-inventory ] || fail 'paquete incorrecto'
+[ "$(value METODO "$REPORT")" = dpkg_local ] || fail 'm√©todo incorrecto'
+[ "$(value CONFIG_PRESERVADA "$REPORT")" = si ] || fail 'configuraci√≥n no documentada'
+[ "$(value PRUEBA "$REPORT")" = STATUS_OK ] || fail 'prueba no documentada'
+[ "$(value RED_UTILIZADA "$REPORT")" = no ] || fail 'la misi√≥n es offline'
+echo 'SUPERADO: paquete real actualizado, configuraci√≥n preservada y prueba funcional correcta.'

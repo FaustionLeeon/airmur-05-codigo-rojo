@@ -1,1 +1,22 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´Ş›®Ö»şË^§oí{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Contrasta configuraciÃ³n y estado vivo
+
+Compara `/etc/airmur/gate.conf` con las trazas. Comprueba quÃ© proceso estÃ¡ activo y prueba `/health` en los puertos candidatos.
+
+Usa los wrappers:
+
+- `airmur-gate-stop`
+- `airmur-gate-start`
+
+AsÃ­ practicas gestiÃ³n de proceso sin depender de systemd.
+
+<details><summary>Pista 1 â€” prueba funcional</summary>
+
+Una conexiÃ³n o escucha no basta: la ruta `/health` debe devolver `AIRMUR-GATE-OK`.
+
+</details>
+
+<details><summary>Pista 2 â€” correcciÃ³n mÃ­nima</summary>
+
+Corrige Ãºnicamente `LISTEN_PORT`, detÃ©n el proceso anterior y arrÃ¡ncalo de nuevo. Relee el log de servicio.
+
+</details>

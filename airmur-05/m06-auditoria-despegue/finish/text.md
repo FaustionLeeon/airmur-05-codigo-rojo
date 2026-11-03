@@ -1,1 +1,7 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´é«ŠÚ+‰§^²— ¹ïßŠx¬‡û^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# CÃ³digo rojo cerrado
+
+Nora recibe un inventario que distingue hechos, configuraciÃ³n y narrativa. El aeropuerto vuelve a operar sin haber tocado ningÃºn dominio real.
+
+**CE trabajado:** 5.f. Has interpretado la configuraciÃ³n del sistema operativo en red y has documentado sus lÃ­mites.
+
+Fin de AIRMUR 05. Conserva el cuaderno: la evidencia importa tanto como el comando.

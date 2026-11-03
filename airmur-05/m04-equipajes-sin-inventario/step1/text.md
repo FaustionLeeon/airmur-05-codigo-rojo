@@ -1,1 +1,20 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´áê®Š–£zË")ïz{Z®*?²×©×û^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Comprueba versiÃ³n y sÃ­ntoma
+
+Determina:
+
+- si `airmur-inventory` estÃ¡ registrado en `dpkg`;
+- quÃ© versiÃ³n hay instalada;
+- quÃ© devuelve `airmur-inventory --check`;
+- quÃ© configuraciÃ³n debe conservarse.
+
+<details><summary>Pista 1 â€” dos fuentes</summary>
+
+Compara lo que declara la base de paquetes (`dpkg-query`) con lo que declara el binario (`--version`).
+
+</details>
+
+<details><summary>Pista 2 â€” no ignores el cÃ³digo de salida</summary>
+
+Ejecuta la comprobaciÃ³n y consulta inmediatamente `$?`. Salida y cÃ³digo de retorno forman parte de la prueba.
+
+</details>

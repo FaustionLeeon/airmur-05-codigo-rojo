@@ -1,1 +1,14 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´Þ›ž®Ö»þ)Ý{ì¢u,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+{
+  "title": "M03 â€” La puerta 7 no responde",
+  "description": "CE 5.c: observar trazas, localizar una discrepancia y recuperar un servicio sin systemd.",
+  "details": {
+    "intro": {"title": "Embarque detenido", "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh"},
+    "steps": [
+      {"title": "1. Reconstruye la lÃ­nea temporal", "text": "step1/text.md"},
+      {"title": "2. Contrasta configuraciÃ³n y estado", "text": "step2/text.md"},
+      {"title": "3. Recupera y documenta", "text": "step3/text.md", "verify": "step3/verify.sh"}
+    ],
+    "finish": {"title": "Puerta abierta", "text": "finish/text.md"}
+  },
+  "backend": {"imageid": "ubuntu"}
+}

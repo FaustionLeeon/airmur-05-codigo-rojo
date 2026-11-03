@@ -1,1 +1,17 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´Ş›®Ö»şË^§_í{fuKæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+# Reconstruye la lÃ­nea temporal
+
+Lee las trazas de operaciones y del servicio. Busca el identificador de incidente, el endpoint esperado y el puerto real de arranque.
+
+No leas solo la Ãºltima lÃ­nea: relaciona al menos un evento de operaciones con uno del proceso de puerta.
+
+<details><summary>Pista 1 â€” reduce ruido</summary>
+
+Empieza listando `/var/log/airmur`; despuÃ©s filtra por `ERROR`, `incident`, `expected` y `service_start`.
+
+</details>
+
+<details><summary>Pista 2 â€” pregunta concreta</summary>
+
+Â¿Coincide el puerto que espera operaciones con el que registrÃ³ el servicio al arrancar?
+
+</details>

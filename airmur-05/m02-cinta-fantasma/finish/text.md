@@ -1,1 +1,5 @@
-m«ëˆ§½©buªàºg§µ¨«šêôçù´ÙÈ§µ§ÚÖ¬™¯ßŠx¬‡û^ÆÙRÆ y¶¬{®vçºh¢ø¥zŠ.µø¥y¶ëy©­æ¤zw(uçhºÚn¶êbÚ%Šw¬¡ù^aéƒu×œ¡×yÊz)éºØazZ]ŠÊek+aŠÉ²Æ z(§¦ëb›­~)^uçÚº[_¢»-v)è¢ëiºÚ.¶›­~)^uçÚº[_¢»-v‹­
+# Cinta liberada
+
+Has relacionado cantidad, antigÃ¼edad, espacio e inodos sin destruir controles. Este es un diagnÃ³stico vÃ¡lido del sistema de archivos, pero no sustituye medir latencia, cola y utilizaciÃ³n de un dispositivo real.
+
+**CE trabajado:** 5.b, cobertura parcial en Killercoda. Completa la extensiÃ³n en VM de la matriz para acreditaciÃ³n plena.
