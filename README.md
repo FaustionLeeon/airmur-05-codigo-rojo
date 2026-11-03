@@ -11,6 +11,7 @@ Proyecto listo para importar en Killercoda para 2.º SMR, módulo 0224 **Sistema
 - `docs/GUIA_PROFESOR.md`: secuenciación, evaluación, soluciones esperadas y recuperación.
 - `docs/SOLUCIONARIO_PASO_A_PASO.md`: resolución completa para el profesor, explicada desde cero y con órdenes comprobadas.
 - `docs/CUADERNO_ALUMNO.md`: plantilla común para documentar diagnóstico, intervención y pruebas.
+- `docs/Plantilla_Evidencias_AIRMUR_05_Killercoda_CESUR.docx`: memoria Word editable para el alumnado, con identidad visual de CESUR, dos capturas y un cuadro de explicación por misión.
 - `scripts/validate.sh`: validación estática del repositorio.
 - `scripts/smoke-test.sh`: pruebas dinámicas en Ubuntu/Debian con privilegios de administrador.
 
@@ -85,7 +86,7 @@ Documentación oficial consultada: [Creator Documentation](https://killercoda.co
 
 ## Estado de las pruebas
 
-Consulte `docs/PRUEBAS.md`. Se han superado la validación local, la prueba dinámica de las seis misiones en GitHub Actions y una ejecución completa de M01 en la imagen `ubuntu` vigente de Killercoda. El registro distingue las comprobaciones automatizadas de las pantallas recorridas manualmente.
+Consulte `docs/PRUEBAS.md`. Se han superado la validación local, la prueba dinámica de las seis misiones en GitHub Actions y la ejecución manual completa de M01–M06 en la imagen `ubuntu` vigente de Killercoda. El registro distingue las comprobaciones automatizadas de las pantallas recorridas manualmente.
 
 ## Licencia
 
